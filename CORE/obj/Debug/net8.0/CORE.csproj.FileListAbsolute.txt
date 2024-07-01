@@ -1,0 +1,14 @@
+E:\wevdev\school\WEB-MEDICAL\CORE\bin\Debug\net8.0\CORE.deps.json
+E:\wevdev\school\WEB-MEDICAL\CORE\bin\Debug\net8.0\CORE.runtimeconfig.json
+E:\wevdev\school\WEB-MEDICAL\CORE\bin\Debug\net8.0\CORE.dll
+E:\wevdev\school\WEB-MEDICAL\CORE\bin\Debug\net8.0\CORE.pdb
+E:\wevdev\school\WEB-MEDICAL\CORE\obj\Debug\net8.0\CORE.csproj.AssemblyReference.cache
+E:\wevdev\school\WEB-MEDICAL\CORE\obj\Debug\net8.0\CORE.GeneratedMSBuildEditorConfig.editorconfig
+E:\wevdev\school\WEB-MEDICAL\CORE\obj\Debug\net8.0\CORE.AssemblyInfoInputs.cache
+E:\wevdev\school\WEB-MEDICAL\CORE\obj\Debug\net8.0\CORE.AssemblyInfo.cs
+E:\wevdev\school\WEB-MEDICAL\CORE\obj\Debug\net8.0\CORE.csproj.CoreCompileInputs.cache
+E:\wevdev\school\WEB-MEDICAL\CORE\obj\Debug\net8.0\CORE.dll
+E:\wevdev\school\WEB-MEDICAL\CORE\obj\Debug\net8.0\refint\CORE.dll
+E:\wevdev\school\WEB-MEDICAL\CORE\obj\Debug\net8.0\CORE.pdb
+E:\wevdev\school\WEB-MEDICAL\CORE\obj\Debug\net8.0\CORE.genruntimeconfig.cache
+E:\wevdev\school\WEB-MEDICAL\CORE\obj\Debug\net8.0\ref\CORE.dll
