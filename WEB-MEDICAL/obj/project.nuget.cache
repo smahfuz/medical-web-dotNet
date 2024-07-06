@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GzcZ2ShEx/90jQemDNGX6bZ3a+0LvdBqhUTbxS+soQle0ljqYZDUY7AnAft2QjVWc6Zoi2mbIK6QPaIBtmsSzg==",
+  "dgSpecHash": "dKXJpN7GYdPMeN5rO4BkXdmWacYq7MFdCPzuY63wZB622WlsbYPinuLuRpxB4fXQl/AfNr2tSC51lO2NQwmeCw==",
   "success": true,
-  "projectFilePath": "E:\\wevdev\\school\\WEB-MEDICAL\\WEB-MEDICAL\\WEB-MEDICAL.csproj",
+  "projectFilePath": "E:\\medical-web-folder\\WEB-MEDICAL\\WEB-MEDICAL\\WEB-MEDICAL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Mahfuz\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Mahfuz\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

@@ -4151,11 +4151,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\wevdev\\school\\WEB-MEDICAL\\SERVICE\\SERVICE.csproj",
+      "projectUniqueName": "E:\\medical-web-folder\\WEB-MEDICAL\\SERVICE\\SERVICE.csproj",
       "projectName": "SERVICE",
-      "projectPath": "E:\\wevdev\\school\\WEB-MEDICAL\\SERVICE\\SERVICE.csproj",
+      "projectPath": "E:\\medical-web-folder\\WEB-MEDICAL\\SERVICE\\SERVICE.csproj",
       "packagesPath": "C:\\Users\\Mahfuz\\.nuget\\packages\\",
-      "outputPath": "E:\\wevdev\\school\\WEB-MEDICAL\\SERVICE\\obj\\",
+      "outputPath": "E:\\medical-web-folder\\WEB-MEDICAL\\SERVICE\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Mahfuz\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4172,8 +4172,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "E:\\wevdev\\school\\WEB-MEDICAL\\REPO\\REPO.csproj": {
-              "projectPath": "E:\\wevdev\\school\\WEB-MEDICAL\\REPO\\REPO.csproj"
+            "E:\\medical-web-folder\\WEB-MEDICAL\\REPO\\REPO.csproj": {
+              "projectPath": "E:\\medical-web-folder\\WEB-MEDICAL\\REPO\\REPO.csproj"
             }
           }
         }

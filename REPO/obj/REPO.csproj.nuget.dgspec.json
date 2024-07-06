@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\wevdev\\school\\WEB-MEDICAL\\REPO\\REPO.csproj": {}
+    "E:\\medical-web-folder\\WEB-MEDICAL\\REPO\\REPO.csproj": {}
   },
   "projects": {
-    "E:\\wevdev\\school\\WEB-MEDICAL\\CORE\\CORE.csproj": {
+    "E:\\medical-web-folder\\WEB-MEDICAL\\CORE\\CORE.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\wevdev\\school\\WEB-MEDICAL\\CORE\\CORE.csproj",
+        "projectUniqueName": "E:\\medical-web-folder\\WEB-MEDICAL\\CORE\\CORE.csproj",
         "projectName": "CORE",
-        "projectPath": "E:\\wevdev\\school\\WEB-MEDICAL\\CORE\\CORE.csproj",
+        "projectPath": "E:\\medical-web-folder\\WEB-MEDICAL\\CORE\\CORE.csproj",
         "packagesPath": "C:\\Users\\Mahfuz\\.nuget\\packages\\",
-        "outputPath": "E:\\wevdev\\school\\WEB-MEDICAL\\CORE\\obj\\",
+        "outputPath": "E:\\medical-web-folder\\WEB-MEDICAL\\CORE\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Mahfuz\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -81,14 +81,14 @@
         }
       }
     },
-    "E:\\wevdev\\school\\WEB-MEDICAL\\REPO\\REPO.csproj": {
+    "E:\\medical-web-folder\\WEB-MEDICAL\\REPO\\REPO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\wevdev\\school\\WEB-MEDICAL\\REPO\\REPO.csproj",
+        "projectUniqueName": "E:\\medical-web-folder\\WEB-MEDICAL\\REPO\\REPO.csproj",
         "projectName": "REPO",
-        "projectPath": "E:\\wevdev\\school\\WEB-MEDICAL\\REPO\\REPO.csproj",
+        "projectPath": "E:\\medical-web-folder\\WEB-MEDICAL\\REPO\\REPO.csproj",
         "packagesPath": "C:\\Users\\Mahfuz\\.nuget\\packages\\",
-        "outputPath": "E:\\wevdev\\school\\WEB-MEDICAL\\REPO\\obj\\",
+        "outputPath": "E:\\medical-web-folder\\WEB-MEDICAL\\REPO\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Mahfuz\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -105,8 +105,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "E:\\wevdev\\school\\WEB-MEDICAL\\CORE\\CORE.csproj": {
-                "projectPath": "E:\\wevdev\\school\\WEB-MEDICAL\\CORE\\CORE.csproj"
+              "E:\\medical-web-folder\\WEB-MEDICAL\\CORE\\CORE.csproj": {
+                "projectPath": "E:\\medical-web-folder\\WEB-MEDICAL\\CORE\\CORE.csproj"
               }
             }
           }

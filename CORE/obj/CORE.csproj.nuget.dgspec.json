@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\wevdev\\school\\WEB-MEDICAL\\CORE\\CORE.csproj": {}
+    "E:\\medical-web-folder\\WEB-MEDICAL\\CORE\\CORE.csproj": {}
   },
   "projects": {
-    "E:\\wevdev\\school\\WEB-MEDICAL\\CORE\\CORE.csproj": {
+    "E:\\medical-web-folder\\WEB-MEDICAL\\CORE\\CORE.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\wevdev\\school\\WEB-MEDICAL\\CORE\\CORE.csproj",
+        "projectUniqueName": "E:\\medical-web-folder\\WEB-MEDICAL\\CORE\\CORE.csproj",
         "projectName": "CORE",
-        "projectPath": "E:\\wevdev\\school\\WEB-MEDICAL\\CORE\\CORE.csproj",
+        "projectPath": "E:\\medical-web-folder\\WEB-MEDICAL\\CORE\\CORE.csproj",
         "packagesPath": "C:\\Users\\Mahfuz\\.nuget\\packages\\",
-        "outputPath": "E:\\wevdev\\school\\WEB-MEDICAL\\CORE\\obj\\",
+        "outputPath": "E:\\medical-web-folder\\WEB-MEDICAL\\CORE\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Mahfuz\\AppData\\Roaming\\NuGet\\NuGet.Config",

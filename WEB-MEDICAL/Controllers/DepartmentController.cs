@@ -13,6 +13,7 @@ namespace WEB_MEDICAL.Controllers
             _departmentService = departmentService;
             
         }
+        //change korlam
 
         public async Task<IActionResult> Index()
         {
