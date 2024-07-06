@@ -20,24 +20,28 @@ namespace SERVICE.Services
             _patientRepository = patientRepository;
         }
 
-        public Task DeleteAsync(int id)
+
+
+        public async Task DeleteAsync(Patient patient)
         {
-            throw new NotImplementedException();
+            await _patientRepository.DeleteAsync(patient);
         }
 
         public Task<IEnumerable<Patient>> GetAllAsync()
         {
-           return _patientRepository.GetAllAsync();
+            return _patientRepository.GetAllAsync();
         }
 
         public Task<Patient> GetIdAsync(int id)
         {
             return _patientRepository.GetIdAsync(id);
+
         }
 
         public async Task InsertAsync(Patient patient)
         {
-          await _patientRepository.InsertAsync(patient);
+            await _patientRepository.InsertAsync(patient);
+
 
         }
 
@@ -45,7 +49,7 @@ namespace SERVICE.Services
         public async Task SaveChangesAsync()
         {
             await _patientRepository.SaveChangesAsync();
-            
+
         }
 
         public Task UpdateAsync(Patient patient)
@@ -53,4 +57,6 @@ namespace SERVICE.Services
             throw new NotImplementedException();
         }
     }
+
+      
 }

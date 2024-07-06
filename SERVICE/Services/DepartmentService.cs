@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
 
 namespace SERVICE.Services
 {
@@ -18,15 +19,21 @@ namespace SERVICE.Services
             
         }
 
-        public Task DeleteAsync(int id)
+        public async Task DeleteAsync(int id)
         {
-            throw new NotImplementedException();
+            
         }
 
         public Task<IEnumerable<Department>> GetAllAsync()
         {
             return _repository.GetAllAsync();
             
+        }
+
+        public async Task<Department> SearchPatientByDepId(int id)
+        {
+            return await _repository.SearchPatientByDepId(id);
+
         }
 
         public Task<Department> GetIdAsync(int id)

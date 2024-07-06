@@ -15,5 +15,6 @@ namespace SERVICE.IServices
         Task SaveChangesAsync();
         Task<IEnumerable<Department>> GetAllAsync();
         Task<Department> GetIdAsync(int id);
+        Task<Department> SearchPatientByDepId(int id);
     }
 }

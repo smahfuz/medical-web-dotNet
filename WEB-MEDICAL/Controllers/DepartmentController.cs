@@ -1,5 +1,6 @@
 ﻿using CORE.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using SERVICE.IServices;
 using WEB_MEDICAL.ViewModels;
 
@@ -35,5 +36,26 @@ namespace WEB_MEDICAL.Controllers
            await _departmentService.InsertAsync(obj);
             return RedirectToAction("Index");
         }
+        [HttpGet]
+        public async Task<IActionResult> ShowPatient()
+        {
+            var obj = new PatientView();
+            obj.DepartmentsList = _departmentService.GetAllAsync().Result.Select(x=> new SelectListItem
+            {
+                Value = x.Id.ToString(),
+                Text = x.DepName
+            }).ToList();
+            return View(obj);   
+
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> PatientResult(PatientView patientView)
+        {
+            var obj = await _departmentService.SearchPatientByDepId(patientView.DepartmentId);
+          
+            return View(obj.Patients);
+        }
+
     }
 }

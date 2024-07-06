@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WEB-MEDICAL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cff6bb3426173ad918908ba0722023a778a8475e")]
 [assembly: System.Reflection.AssemblyProductAttribute("WEB-MEDICAL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WEB-MEDICAL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

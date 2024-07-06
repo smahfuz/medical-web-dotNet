@@ -59,5 +59,14 @@ namespace WEB_MEDICAL.Controllers
 
         }
 
+        public async Task<IActionResult> Delete(int id)
+        {
+           
+            var obj= await _patientService.GetIdAsync(id);
+            await _patientService.DeleteAsync(obj);
+            return RedirectToAction("Index");
+            
+        }
+
     }
 }

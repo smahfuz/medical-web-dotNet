@@ -11,7 +11,7 @@ namespace SERVICE.IServices
     {
         Task InsertAsync(Patient patient);
         Task UpdateAsync(Patient patient);
-        Task DeleteAsync(int id);
+        Task DeleteAsync(Patient patient);
         Task SaveChangesAsync();
         Task<IEnumerable<Patient>> GetAllAsync();
         Task<Patient> GetIdAsync(int id);

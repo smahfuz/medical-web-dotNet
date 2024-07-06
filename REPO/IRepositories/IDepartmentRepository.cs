@@ -9,6 +9,6 @@ namespace REPO.IRepositories
 {
     public interface IDepartmentRepository : IRepository<Department>
     {
-        
+         Task<Department> SearchPatientByDepId(int id);
     }
 }

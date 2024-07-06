@@ -11,8 +11,8 @@ namespace REPO.DATA
     public class MyDbContext : DbContext
     {
         public MyDbContext(DbContextOptions options): base(options) { }
-        DbSet<Patient> Patients { get; set; }
-        DbSet<Department> Departments { get; set; }
+       public DbSet<Patient> Patients { get; set; }
+       public DbSet<Department> Departments { get; set; }
 
        
     }
