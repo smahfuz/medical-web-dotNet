@@ -67,6 +67,20 @@ namespace WEB_MEDICAL.Controllers
             return RedirectToAction("Index");
             
         }
+        //[HttpGet]
+        //public async Task<IActionResult> Edit(int id)
+        //{
+        //    var obj = await _patientService.GetIdAsync(id);
+        //    return View(obj);
+        //}
+
+        //[HttpPost]
+        //public async Task<IActionResult> Edit1(Patient pat)
+        //{
+        //    //var obj = await _patientService.GetIdAsync(id);
+        //    await _patientService.UpdateAsync(pat);
+        //    return RedirectToAction("Index");
+        //}
 
     }
 }

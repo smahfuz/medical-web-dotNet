@@ -52,9 +52,9 @@ namespace SERVICE.Services
 
         }
 
-        public Task UpdateAsync(Patient patient)
+        public async Task UpdateAsync(Patient patient)
         {
-            throw new NotImplementedException();
+            await _patientRepository.UpdateAsync(patient);
         }
     }
 

@@ -57,5 +57,24 @@ namespace WEB_MEDICAL.Controllers
             return View(obj.Patients);
         }
 
+        public async Task<IActionResult> Delete(int id)
+        {
+            var obj =await _departmentService.GetIdAsync(id);
+            await _departmentService.DeleteAsync(obj);
+            return RedirectToAction("Index");
+        }
+
+        //public async Task<IActionResult> Edit(int id)
+        //{
+        //    var obj = await _departmentService.GetIdAsync(id);
+        //    return View(obj);
+        //}
+
+        //public async Task<IActionResult> Edit1(Department dep)
+        //{
+        //    await _departmentService.UpdateAsync(dep);
+        //    return RedirectToAction("Index");
+        //}
+
     }
 }

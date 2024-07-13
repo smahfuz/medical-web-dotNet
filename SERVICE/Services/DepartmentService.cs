@@ -19,8 +19,10 @@ namespace SERVICE.Services
             
         }
 
-        public async Task DeleteAsync(int id)
+        public async Task DeleteAsync(Department department)
         {
+             await _repository.DeleteAsync(department);
+
             
         }
 
@@ -36,9 +38,9 @@ namespace SERVICE.Services
 
         }
 
-        public Task<Department> GetIdAsync(int id)
+        public async Task<Department> GetIdAsync(int id)
         {
-            throw new NotImplementedException();
+            return await _repository.GetIdAsync(id);
         }
 
         public async Task InsertAsync(Department dep)
@@ -52,9 +54,9 @@ namespace SERVICE.Services
             throw new NotImplementedException();
         }
 
-        public Task UpdateAsync(Department dep)
+        public async Task UpdateAsync(Department dep)
         {
-            throw new NotImplementedException();
+            await _repository.UpdateAsync(dep);
         }
     }
 }
