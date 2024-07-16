@@ -23,6 +23,13 @@ namespace WEB_MEDICAL.Controllers
 
         }
 
+        public async Task<IActionResult> Show()
+        {
+            return View();
+        }
+
+
+
         public async Task<IActionResult> Create()
         {
             return View();

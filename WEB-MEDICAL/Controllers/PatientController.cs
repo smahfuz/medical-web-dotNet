@@ -59,6 +59,27 @@ namespace WEB_MEDICAL.Controllers
 
         }
 
+       public async Task<IActionResult> DepartmentPatient()
+        {
+            var obj1 = new DepartmentPatientView();
+            obj1.Departments = _departmentService.GetAllAsync().Result.Select(x => new SelectListItem
+            {
+                Value = x.Id.ToString(),
+                Text = x.DepName
+            }).ToList();
+
+            return View(obj1);
+        }
+        [Produces("application/json")]  
+        public async Task<IActionResult> GetPatient(int did)
+        {
+            var pat =await _patientService.GetPatientByDepIdAsync(did);
+            return Json(pat);
+        }
+
+
+
+
         public async Task<IActionResult> Delete(int id)
         {
            

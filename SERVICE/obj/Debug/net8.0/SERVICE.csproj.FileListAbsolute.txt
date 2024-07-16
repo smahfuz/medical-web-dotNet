@@ -17,6 +17,12 @@ E:\wevdev\school\WEB-MEDICAL\SERVICE\obj\Debug\net8.0\refint\SERVICE.dll
 E:\wevdev\school\WEB-MEDICAL\SERVICE\obj\Debug\net8.0\SERVICE.pdb
 E:\wevdev\school\WEB-MEDICAL\SERVICE\obj\Debug\net8.0\SERVICE.genruntimeconfig.cache
 E:\wevdev\school\WEB-MEDICAL\SERVICE\obj\Debug\net8.0\ref\SERVICE.dll
+E:\medical-web-folder\WEB-MEDICAL\SERVICE\obj\Debug\net8.0\SERVICE.csproj.AssemblyReference.cache
+E:\medical-web-folder\WEB-MEDICAL\SERVICE\obj\Debug\net8.0\SERVICE.GeneratedMSBuildEditorConfig.editorconfig
+E:\medical-web-folder\WEB-MEDICAL\SERVICE\obj\Debug\net8.0\SERVICE.AssemblyInfoInputs.cache
+E:\medical-web-folder\WEB-MEDICAL\SERVICE\obj\Debug\net8.0\SERVICE.AssemblyInfo.cs
+E:\medical-web-folder\WEB-MEDICAL\SERVICE\obj\Debug\net8.0\SERVICE.csproj.CoreCompileInputs.cache
+E:\medical-web-folder\WEB-MEDICAL\SERVICE\obj\Debug\net8.0\SERVICE.sourcelink.json
 E:\medical-web-folder\WEB-MEDICAL\SERVICE\bin\Debug\net8.0\SERVICE.deps.json
 E:\medical-web-folder\WEB-MEDICAL\SERVICE\bin\Debug\net8.0\SERVICE.runtimeconfig.json
 E:\medical-web-folder\WEB-MEDICAL\SERVICE\bin\Debug\net8.0\SERVICE.dll
@@ -25,12 +31,6 @@ E:\medical-web-folder\WEB-MEDICAL\SERVICE\bin\Debug\net8.0\CORE.dll
 E:\medical-web-folder\WEB-MEDICAL\SERVICE\bin\Debug\net8.0\REPO.dll
 E:\medical-web-folder\WEB-MEDICAL\SERVICE\bin\Debug\net8.0\REPO.pdb
 E:\medical-web-folder\WEB-MEDICAL\SERVICE\bin\Debug\net8.0\CORE.pdb
-E:\medical-web-folder\WEB-MEDICAL\SERVICE\obj\Debug\net8.0\SERVICE.csproj.AssemblyReference.cache
-E:\medical-web-folder\WEB-MEDICAL\SERVICE\obj\Debug\net8.0\SERVICE.GeneratedMSBuildEditorConfig.editorconfig
-E:\medical-web-folder\WEB-MEDICAL\SERVICE\obj\Debug\net8.0\SERVICE.AssemblyInfoInputs.cache
-E:\medical-web-folder\WEB-MEDICAL\SERVICE\obj\Debug\net8.0\SERVICE.AssemblyInfo.cs
-E:\medical-web-folder\WEB-MEDICAL\SERVICE\obj\Debug\net8.0\SERVICE.csproj.CoreCompileInputs.cache
-E:\medical-web-folder\WEB-MEDICAL\SERVICE\obj\Debug\net8.0\SERVICE.sourcelink.json
 E:\medical-web-folder\WEB-MEDICAL\SERVICE\obj\Debug\net8.0\SERVICE.csproj.CopyComplete
 E:\medical-web-folder\WEB-MEDICAL\SERVICE\obj\Debug\net8.0\SERVICE.dll
 E:\medical-web-folder\WEB-MEDICAL\SERVICE\obj\Debug\net8.0\refint\SERVICE.dll

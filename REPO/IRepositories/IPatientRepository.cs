@@ -9,6 +9,6 @@ namespace REPO.IRepositories
 {
     public interface IPatientRepository : IRepository<Patient>
     {
-
+        Task<List<Patient>> GetPatientByDepIdAsync(int id);
     }
 }

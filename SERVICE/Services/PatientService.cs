@@ -38,6 +38,10 @@ namespace SERVICE.Services
 
         }
 
+      
+
+       
+
         public async Task InsertAsync(Patient patient)
         {
             await _patientRepository.InsertAsync(patient);
@@ -55,6 +59,11 @@ namespace SERVICE.Services
         public async Task UpdateAsync(Patient patient)
         {
             await _patientRepository.UpdateAsync(patient);
+        }
+
+        Task<List<Patient>> IPatientService.GetPatientByDepIdAsync(int id)
+        {
+            return _patientRepository.GetPatientByDepIdAsync(id);
         }
     }
 

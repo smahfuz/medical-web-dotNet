@@ -13,7 +13,7 @@ namespace CORE.Models
         public string PatientName { get; set; }
         public string PatientDescription { get; set; }
         public DateTime AdmitDate { get; set; }
-
+    
         [ForeignKey("DeaprtmentId")]
         public int DepartmentId { get; set; }
         public Department Department { get; set; }

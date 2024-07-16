@@ -15,5 +15,6 @@ namespace SERVICE.IServices
         Task SaveChangesAsync();
         Task<IEnumerable<Patient>> GetAllAsync();
         Task<Patient> GetIdAsync(int id);
+        Task<List<Patient>> GetPatientByDepIdAsync(int id);
     }
 }
