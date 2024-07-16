@@ -73,6 +73,8 @@
     <script>
         $("#DepartmentId").change(function () {
             var departmentId = $("#DepartmentId").val();
+            $("#PatientId").empty(); 
+            $("#PatientId").append("<option value=''>--select Patient--</option>");
             var json = {
                 did:departmentId
             };
