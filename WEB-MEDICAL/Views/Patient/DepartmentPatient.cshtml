@@ -24,47 +24,8 @@
 
     </div>
 
-    <div class="col-md-6">
-        @* <div>
-            <h4>Patient</h4>
-            <hr />
-            <dl class="row">
-                <dt class="col-sm-2">
-                    @Html.DisplayNameFor(model => model.Id)
-                </dt>
-                <dd class="col-sm-10">
-                    @Html.DisplayFor(model => model.Id)
-                </dd>
-                <dt class="col-sm-2">
-                    @Html.DisplayNameFor(model => model.PatientName)
-                </dt>
-                <dd class="col-sm-10">
-                    @Html.DisplayFor(model => model.PatientName)
-                </dd>
-                <dt class="col-sm-2">
-                    @Html.DisplayNameFor(model => model.PatientDescription)
-                </dt>
-                <dd class="col-sm-10">
-                    @Html.DisplayFor(model => model.PatientDescription)
-                </dd>
-                <dt class="col-sm-2">
-                    @Html.DisplayNameFor(model => model.AdmitDate)
-                </dt>
-                <dd class="col-sm-10">
-                    @Html.DisplayFor(model => model.AdmitDate)
-                </dd>
-                <dt class="col-sm-2">
-                    @Html.DisplayNameFor(model => model.DepartmentId)
-                </dt>
-                <dd class="col-sm-10">
-                    @Html.DisplayFor(model => model.DepartmentId)
-                </dd>
-            </dl>
-        </div>
-        <div>
-            @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
-            <a asp-action="Index">Back to List</a>
-        </div> *@
+    <div id="loadbox" class="col-md-6">
+       
     </div>
 
 </div>
@@ -101,6 +62,25 @@
                 }
                
             });
+        });  //for dep change
+
+        $("#PatientId").change(function () {
+            var patientId = $("#PatientId").val();
+            var jsonData = { id: patientId };
+
+            console.log("the data is" , jsonData);
+
+            $.ajax({
+                type: "POST",
+                url: "/Patient/GetPatientPar",
+                data: jsonData,
+                success: function (response) {
+                    $("#loadbox").html(response);
+                }
+            });
         });
+
     </script>
+
+
 }

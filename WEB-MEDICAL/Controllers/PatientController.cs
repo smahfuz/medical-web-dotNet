@@ -88,6 +88,29 @@ namespace WEB_MEDICAL.Controllers
             return RedirectToAction("Index");
             
         }
+
+        public async Task<IActionResult> GetPatientPar(int id)
+        {
+            Patient pat = await _patientService.GetIdAsync(id);
+            Department dept = await _departmentService.GetIdAsync(pat.DepartmentId);
+
+            //pat.Department = dept.DepName;
+            var patv = new PatientView();
+            patv.AdmitDate = pat.AdmitDate;
+            patv.PatientDescription = pat.PatientDescription;
+            patv.PatientName = pat.PatientName;
+            patv.Department = dept.DepName;
+            if (patv != null)
+            {
+                return PartialView("_PatientView", patv);
+            }
+            else
+            {
+                return null;
+            }
+        }
+
+
         //[HttpGet]
         //public async Task<IActionResult> Edit(int id)
         //{
