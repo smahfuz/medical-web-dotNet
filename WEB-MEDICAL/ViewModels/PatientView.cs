@@ -15,6 +15,6 @@ namespace WEB_MEDICAL.ViewModels
         public int DepartmentId { get; set; }
         public List<SelectListItem> ? DepartmentsList { get; set; }
 
-        public string Department {  get; set; }
+        public string ? Department {  get; set; }
     }
 }

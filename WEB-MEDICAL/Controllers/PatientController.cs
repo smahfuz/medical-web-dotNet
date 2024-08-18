@@ -27,7 +27,7 @@ namespace WEB_MEDICAL.Controllers
         public async Task<IActionResult> Create()
         {
             var obj1= new PatientView();
-            obj1.DepartmentsList = _departmentService.GetAllAsync().Result.Select(x => new SelectListItem
+            obj1.DepartmentsList =  _departmentService.GetAllAsync().Result.Select(x => new SelectListItem
             {
                 Value = x.Id.ToString(),
                 Text = x.DepName
